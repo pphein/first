@@ -1,0 +1,114 @@
+body {
+	background-color: pink;
+}
+.container {
+	width: 100%;
+	border: 1px solid red;
+}
+.header {
+	margin-bottom: 100px;
+}
+/*Navigation*/
+.nav {
+		font-family: Arial, Helvetica, sans-serif;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	.nav li {
+		background: #cb1212;
+		text-align: center;
+		width: 422px;
+		height: 39px;
+		margin-bottom: 15px;
+	}
+	.nav li a {
+		display: block;
+		text-decoration: none;
+		color: #fff;
+		margin-top: 12px;
+
+	}
+	.nav li a:hover {
+		height: 38px;
+		margin-top: 0px;
+		background: green;
+	}
+	.nav > li {
+		border-right: 1px solid #f00;
+		float: left;
+	}
+/*home*/
+.left-side {
+	border: 1px solid #000;
+	height: 500px;
+	width: 10%;
+	float: left;
+	background-color: #75AAA4;
+	list-style: none;
+}
+.left-side ul {
+	list-style: none;
+}
+.left-side ul li a {
+	text-decoration: none;
+}
+.left-side ul li a:hover {
+	color: white;
+}
+.right-posts {
+	border: 1px solid green;
+	height: 500px;
+	width: 89%;
+	float: left;
+	margin-left: 8px;
+}
+.post {
+	border: 1px solid blue;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/*about*/
+.header-content {
+	border: 1px solid;
+	width: 100%;
+}
+.header-content-leftside{
+	border: 1px solid green;
+	width: 25%;
+	float: left;
+}
+.header-content-right-side {
+	border: 1px solid gray;
+	width: 74%;
+	float: left;
+}
+.content {
+	margin-top: 21%;
+	border-top: 1px solid #000;
+}
+/*contact*/
+.contact {
+	height: 341px;
+}
+
+.name {
+	border: 1px solid blue;
+	margin: 40px;
+}
+.subject {
+	border: 1px solid blue;
+	margin: 40px;
+}
+.message {
+	border: 1px solid blue;
+	margin: 40px;
+}
+.send {
+	border: 1px solid blue;
+	float: right;
+	width: 100px;
+	margin-right: 40px;
+}
+/*test*/
